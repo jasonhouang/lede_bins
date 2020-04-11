@@ -1,0 +1,465 @@
+Package: adblock
+Version: 3.5.5-2
+Depends: libc, jshn, jsonfilter
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 10927
+Filename: adblock_3.5.5-2_all.ipk
+Size: 11863
+SHA256sum: e2aaff5807c41caa0917280b59c2a00f3c69adff5d3f06e5a82b107149c68cf6
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: bash
+Version: 4.4.18-2
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0+
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 257251
+Filename: bash_4.4.18-2_mipsel_24kc.ipk
+Size: 257993
+SHA256sum: 24985b7afc1dc38f46505f48f8a2fd274aa5613157e683de8638b530b917e332
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: coreutils-base64
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 17953
+Filename: coreutils-base64_8.23-3_mipsel_24kc.ipk
+Size: 18683
+SHA256sum: 2b30473db21d00a4af052fcabcb42ec81ae8e9c9237824cf1f7b37eafe91e42e
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 16234
+Filename: coreutils-nohup_8.23-3_mipsel_24kc.ipk
+Size: 16930
+SHA256sum: 43931da4fce457a7257ee38ee5e174cde858980c8e30fdca4ec95f4d91021edf
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.23-3
+Depends: libc
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 105
+Filename: coreutils_8.23-3_mipsel_24kc.ipk
+Size: 919
+SHA256sum: da76d0277195d4f7d762e976f480b7631c20323055cdfb0e73492f901e11fa5a
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14710
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15779
+SHA256sum: db702a3320107483a8846b7067175daec2c255a80669897568f1072fa377b686
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4869
+Filename: etherwake_1.09-4_mipsel_24kc.ipk
+Size: 5777
+SHA256sum: 540f3f152cb0c0915e7d092d13a98d6fe315887c22bdf196f0ef2527221490aa
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: file
+Version: 5.25-2
+Depends: libc, libmagic
+License: BSD-2c
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 127131
+Filename: file_5.25-2_mipsel_24kc.ipk
+Size: 127931
+SHA256sum: 00df0ac67887fba65aa923a5d621dfbc045ef01d1fe48530e9a17d87d0fae7c0
+Description:  File type determination utility
+
+Package: horst
+Version: 5.1-2
+Depends: libc, libncurses6, libnl-tiny
+License: GPL-2.0+
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 39339
+Filename: horst_5.1-2_mipsel_24kc.ipk
+Size: 40234
+SHA256sum: 4c7a0f286ed551938816fa2c2a723241543aacfe4cd262b88b00e6fa076f9f12
+Description:  [horst] is a scanning and analysis tool for 802.11 wireless networks
+ and especially IBSS (ad-hoc) mode and mesh networks (OLSR).
+
+Package: libcap
+Version: 2.26-1
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 5940
+Filename: libcap_2.26-1_mipsel_24kc.ipk
+Size: 6656
+SHA256sum: fa18def6e91f21bc9efe26d0de889734840584c2041ec62f955ecb99a4f43de0
+Description:  Linux capabilities library
+
+Package: libcares
+Version: 1.14.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 26621
+Filename: libcares_1.14.0-1_mipsel_24kc.ipk
+Size: 27405
+SHA256sum: 888ade619bca9f422dfd31679f9b38bdbdc71b7e0881d243f82bfd1f8b1e2efb
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 20818
+Filename: libev_4.22-1_mipsel_24kc.ipk
+Size: 21634
+SHA256sum: 6f39c7f0ee46cb0fa0adbfa3263663ed119cc314cf88aa45b25941dabb5dad6a
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libhttp-parser
+Version: 2.9.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 15156
+Filename: libhttp-parser_2.9.2-2_mipsel_24kc.ipk
+Size: 16151
+SHA256sum: 663f405ac543b78fa0dac392ddc96f10168603813bebe4fe9017d97c1ed762d2
+Description:  A parser for HTTP messages written in C. It parses both requests and responses.
+ The parser is designed to be used in performance HTTP applications.
+ It does not make any syscalls nor allocations, it does not buffer data,
+ it can be interrupted at anytime. Depending on your architecture,
+ it only requires about 40 bytes of data per message stream
+ (in a web server that is per connection).
+
+Package: libmagic
+Version: 5.25-2
+Depends: libc, zlib
+License: BSD-2c
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 49345
+Filename: libmagic_5.25-2_mipsel_24kc.ipk
+Size: 50172
+SHA256sum: cc01e284e4b4d0ed0050fcc56890d30352dfb476cf791deec2589205084dc8a4
+Description:  File type determination library
+
+Package: libminiupnpc
+Version: 2.0.20170509-1
+Depends: libc
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 17732
+Filename: libminiupnpc_2.0.20170509-1_mipsel_24kc.ipk
+Size: 18495
+SHA256sum: 1a2deadd3394ae0362a60a2e8d411be854f687728c9e27bac32f9ae6ad58e6ec
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20150609-1
+Depends: libc
+License: BSD-3c
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 3101
+Filename: libnatpmp_20150609-1_mipsel_24kc.ipk
+Size: 4029
+SHA256sum: 69d7c108343718a3114bc92711159e20e22c5e6a6b7a094abb56057d60819d59
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnet-1.2.x
+Version: 1.2-rc3-4
+Depends: libc, libpcap
+License: GPL-2.0
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 29579
+Filename: libnet-1.2.x_1.2-rc3-4_mipsel_24kc.ipk
+Size: 30355
+SHA256sum: 7d4bc7ae5bac91ed88c9a7cf2404072640301e322b08a8e8541b586067708897
+Description:  Low-level packet creation library
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 80229
+Filename: libpcre_8.41-2_mipsel_24kc.ipk
+Size: 81106
+SHA256sum: 82b77265593e99f60722583802607f74834ce12464ff6c0fc37a6c731a7f17c8
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 130621
+Filename: libsodium_1.0.16-1_mipsel_24kc.ipk
+Size: 131728
+SHA256sum: 2c18b38990db125b369be0b0ac98b40a80e2667d467f9237f8a683255bacac2f
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libuv1
+Version: 1.32.0-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 51027
+Filename: libuv1_1.32.0-1_mipsel_24kc.ipk
+Size: 51843
+SHA256sum: 4c927509b422bc3faf230c6fbbafe1284e60b4280593c1fadf5e076b77a83c89
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 2.4.1-2
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+License: LGPL-2.1+exception
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 79062
+Filename: libwebsockets-full_2.4.1-2_mipsel_24kc.ipk
+Size: 79754
+SHA256sum: 6b3b6eb9cc00aa0043ee9dc0c816a36713121830e954eb80d662a4dfe17c94ad
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: luci-app-sqm
+Version: 1.4.0-2
+Depends: libc, lua, luci-base, sqm-scripts
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4003
+Filename: luci-app-sqm_1.4.0-2_all.ipk
+Size: 4963
+SHA256sum: a0c630255dc5cf41b9dfdff2217402e81c22ea4f313202f64b1dbca5e1fb13b1
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 46905
+Filename: miniupnpd_2.0.20170421-3_mipsel_24kc.ipk
+Size: 47781
+SHA256sum: cb35e0d90d7163621dcf1c2c77d2083d2e4913b8709ef7821e4b9880312cbcbb
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2019-06-06-4574e6e8-1
+Depends: libc, libubox20170601, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 16065
+Filename: nlbwmon_2019-06-06-4574e6e8-1_mipsel_24kc.ipk
+Size: 16899
+SHA256sum: 038f69c17ea191a6dffcef3193e3622dbcf48ad0b5e9e24d0f35cf2dac82dd71
+Description:  LEDE Traffic Usage Monitor
+
+Package: node
+Version: v12.15.0-1
+Depends: libc, libstdcpp, libopenssl1.1, zlib, libnghttp2-14, libuv1, libhttp-parser, libcares, libatomic
+License: MIT
+Section: lang
+Architecture: mipsel_24kc
+Installed-Size: 6549808
+Filename: node_v12.15.0-1_mipsel_24kc.ipk
+Size: 6531203
+SHA256sum: 234f79f880061d62dba2b8fc269abe2ae21b9ec7824c2bb2a2a8ac7b8b9ceaee
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ *** Requires GCC/G++ Multilib on host system to build 32-bit target ***
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5107
+Filename: p910nd_0.97-5_mipsel_24kc.ipk
+Size: 6087
+SHA256sum: bd9c289a8f735c27f8275c7ece848926eeac6c87be0177ded485a7bf34ecca77
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: pptpd
+Version: 1.4.0-3
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 27226
+Filename: pptpd_1.4.0-3_mipsel_24kc.ipk
+Size: 27997
+SHA256sum: b8ec5af3e507450dc571cdd9617e01c5fc96a89ff88c6212490cb16001ce53ee
+Description:  PopTop pptp server
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 47044
+Filename: shadowsocks-libev-ss-local_3.3.4-1_mipsel_24kc.ipk
+Size: 47322
+SHA256sum: d08ef93ce5e99e4af378465c25f05478036d88bd6c0368b59504583b8cebaf77
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 40566
+Filename: shadowsocks-libev-ss-redir_3.3.4-1_mipsel_24kc.ipk
+Size: 40937
+SHA256sum: 6573d08073e384c211082bf1cf57819e968b7389195a85a1583495c59db2cbfb
+Description:  shadowsocks-libev ss-redir
+
+Package: sqm-scripts
+Version: 1.4.0-2
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 17905
+Filename: sqm-scripts_1.4.0-2_all.ipk
+Size: 18778
+SHA256sum: 38b6ef7ee63dd6d2625f8e4c680a930992df1a1bc25fef2e018d51a96040900a
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: tmux
+Version: 2.7-1
+Depends: libc, libncurses6, libevent2-7, libpthread, librt
+License: ISC
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 160471
+Filename: tmux_2.7-1_mipsel_24kc.ipk
+Size: 160936
+SHA256sum: 27fb3749a511a59313178aa9af582bafd7efcf109620919fbc00586caaa4a979
+Description:  tmux is a modern, BSD-licensed alternative to GNU screen.
+
+Package: ttyd
+Version: 1.4.0-1
+Depends: libc, libopenssl1.1, libjson-c, libpthread, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 145807
+Filename: ttyd_1.4.0-1_mipsel_24kc.ipk
+Size: 146353
+SHA256sum: a366c5c86495accbdba88f32bbd0d2aa5cf861389fc0c734961252d4a364ecb1
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: wget
+Version: 1.20.3-3
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 182478
+Filename: wget_1.20.3-3_mipsel_24kc.ipk
+Size: 183338
+SHA256sum: 459b2dfe406a575c0a9f91120eda3bbee9e9c0f66ad329bff3182c85ecbc9281
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+License: PRPL
+Section: net
+Architecture: all
+Installed-Size: 3099
+Filename: wifischedule_1-2_all.ipk
+Size: 3876
+SHA256sum: 78a42b776fab7a4d6ade23c4d276739fd19191c987a7fe77b6c74659bcb8761b
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: zerotier
+Version: 1.4.6-1
+Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 364144
+Filename: zerotier_1.4.6-1_mipsel_24kc.ipk
+Size: 364142
+SHA256sum: bd223c7d592f0a36f462205488f13063cf84f0508f04652f5b1cd644284bc0f6
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+

@@ -1,3 +1,17 @@
+Package: bash
+Version: 4.4.18-2
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0+
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 259720
+Filename: bash_4.4.18-2_mips_24kc.ipk
+Size: 260372
+SHA256sum: 37e59ffe45ee0654527cccf851f25b78c3a00642badc346e6a04eefb75096545
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
 Package: coreutils-base64
 Version: 8.23-3
 Depends: libc, coreutils
@@ -8,6 +22,17 @@ Filename: coreutils-base64_8.23-3_mips_24kc.ipk
 Size: 18689
 SHA256sum: 6045262a5c84b6e41694c15b5e2ecc8634dc6b0c8494b37ced8fd1178756b902
 Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 16222
+Filename: coreutils-nohup_8.23-3_mips_24kc.ipk
+Size: 16900
+SHA256sum: dc2dbb58add2f901a4d6bef20bb570560334098cdc1a81499c0dad5be46bc7ba
+Description:  Full version of standard GNU nohup utility.
 
 Package: coreutils
 Version: 8.23-3
@@ -48,6 +73,22 @@ Description:  You can wake up WOL compliant Computers which have been powered do
  to turn on a computer from another location over a network connection.
  ether-wake also supports WOL passwords.
 
+Package: libcares
+Version: 1.14.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 26458
+Filename: libcares_1.14.0-1_mips_24kc.ipk
+Size: 27299
+SHA256sum: aade491745a0560daa93f3d73be2fde29ddf7611e2b71edf7ab0a8943653b33f
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
 Package: libev
 Version: 4.22-1
 Depends: libc
@@ -60,6 +101,33 @@ Size: 21710
 SHA256sum: 9a9722d9420542daf4b41543b93f908dd50acb0f5892108e9de442572a309cc8
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libminiupnpc
+Version: 2.0.20170509-1
+Depends: libc
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 17820
+Filename: libminiupnpc_2.0.20170509-1_mips_24kc.ipk
+Size: 18578
+SHA256sum: f9e26f30e7ba91e8992bf9a5e06765a14bc3859de698b70f700cbfb7ca08027f
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20150609-1
+Depends: libc
+License: BSD-3c
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 3108
+Filename: libnatpmp_20150609-1_mips_24kc.ipk
+Size: 4036
+SHA256sum: 3c19742dee1726383912e9e16c8d1b35398d809bd14f2b2549f881a82b75cff0
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
 
 Package: libnet-1.2.x
 Version: 1.2-rc3-4
@@ -102,6 +170,18 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
 
+Package: luci-app-sqm
+Version: 1.4.0-2
+Depends: libc, lua, luci-base, sqm-scripts
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4006
+Filename: luci-app-sqm_1.4.0-2_all.ipk
+Size: 4966
+SHA256sum: ec82a5ad0520f34ca9541d458edcdee6df802b003c279bd75cd1d2821178472e
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
 Package: miniupnpd
 Version: 2.0.20170421-3
 Depends: libc, iptables, libip4tc2, libuuid
@@ -125,6 +205,35 @@ Filename: nlbwmon_2019-06-06-4574e6e8-1_mips_24kc.ipk
 Size: 16594
 SHA256sum: 8832c4c0028e56e39c9dcf5fad2b513a5ee65cb81f28789d807272587d10cf41
 Description:  LEDE Traffic Usage Monitor
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: mips_24kc
+Installed-Size: 5128
+Filename: p910nd_0.97-5_mips_24kc.ipk
+Size: 6088
+SHA256sum: 4c41ae9898c4cd3300f57ffa069769aafa1bdc5a9084abae4ecdf47d4b858716
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: pptpd
+Version: 1.4.0-3
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Section: net
+Architecture: mips_24kc
+Installed-Size: 27445
+Filename: pptpd_1.4.0-3_mips_24kc.ipk
+Size: 28121
+SHA256sum: a3a04f66a501e1353979876251ebf208ee01e7501c1963a7cfe855e07627ec2c
+Description:  PopTop pptp server
 
 Package: shadowsocks-libev-ss-local
 Version: 3.3.4-1
@@ -150,6 +259,18 @@ Size: 40764
 SHA256sum: ddc47b84340db2c2c26fe284a46f07fbc50b32b477486d5d30228e5d8b1937eb
 Description:  shadowsocks-libev ss-redir
 
+Package: sqm-scripts
+Version: 1.4.0-2
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 17907
+Filename: sqm-scripts_1.4.0-2_all.ipk
+Size: 18782
+SHA256sum: 53ee491f0b6497814b3f3cde3c27d0f1afd2e2e1707787859eb0c2497e3b6292
+Description:  A set of scripts that does simple SQM configuration.
+
 Package: wget
 Version: 1.20.3-3
 Depends: libc, libpcre, zlib, libopenssl1.1, librt
@@ -169,4 +290,28 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  pages as well as ftp sites -- you can use wget to make mirrors of
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+License: PRPL
+Section: net
+Architecture: all
+Installed-Size: 3100
+Filename: wifischedule_1-2_all.ipk
+Size: 3869
+SHA256sum: 3b5a85ca438d0cf35194049a42c60892f96bf634c992cf072fed7a4183e37b78
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: zerotier
+Version: 1.4.6-1
+Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
+License: GPL-3.0-or-later
+Section: net
+Architecture: mips_24kc
+Installed-Size: 367148
+Filename: zerotier_1.4.6-1_mips_24kc.ipk
+Size: 366599
+SHA256sum: 9ab9293efe19c805f155316fbd1768fc55c3d84804141464582f5bad0753cf4f
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 

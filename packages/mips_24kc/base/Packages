@@ -14,10 +14,10 @@ Version: 2019-10-03-d622d160-1
 Depends: libc
 Section: firmware
 Architecture: mips_24kc
-Installed-Size: 209223
+Installed-Size: 209224
 Filename: ath10k-firmware-qca9887_2019-10-03-d622d160-1_mips_24kc.ipk
-Size: 210085
-SHA256sum: 6d88821c0b2867332369cef9813b7fd2743805080813ef441fca02a24ec550fb
+Size: 210084
+SHA256sum: 9c9a145239182c9263c529062219d7156c362f59c851c59acfe0dca73a8e02a6
 Description:  ath10k firmware for QCA9887 devices
 
 Package: busybox
@@ -87,10 +87,10 @@ Depends: libc, luci-base
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 11650
+Installed-Size: 11651
 Filename: default-settings_1.1-57_all.ipk
-Size: 12389
-SHA256sum: 522a96d5ce906222ab658dba7ac9b370747931549cd5ac3bc1f54502f9e57cd3
+Size: 12391
+SHA256sum: 87acc280df24709f354e26355e91ccd0ad759a231938bdd56acce2195a0f9074
 Description:  Language Support Packages.
 
 Package: dns2socks
@@ -166,8 +166,8 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 8512
 Filename: hostapd-common_2019-08-08-ca8c2bd2-9_mips_24kc.ipk
-Size: 9274
-SHA256sum: d7d0d921882fd0414be28236287ac93f8cc2e080a54c252ef024283d12e75450
+Size: 9276
+SHA256sum: 859b7604f4195b6cee295389242ef32414e61db4e36a8f814ec87b7755a3ca47
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ip-full
@@ -190,10 +190,10 @@ Depends: libc, kmod-ipt-ipset, libmnl0, libipset13
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 1376
+Installed-Size: 1375
 Filename: ipset_7.1-3_mips_24kc.ipk
-Size: 2133
-SHA256sum: 1c694520fe5a1f99769cc141e4ade30ccf4b5c64ba502cd4c63946a638cb49c9
+Size: 2134
+SHA256sum: 278f2ce4e6604c4bf7e673fb8d45a21becfd29c1bb13b662567d80b181172e14
 Description:  IPset administration utility
 
 Package: iptables-mod-fullconenat
@@ -202,10 +202,10 @@ Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2282
+Installed-Size: 2284
 Filename: iptables-mod-fullconenat_2019-10-21-0cf3b48f-2_mips_24kc.ipk
-Size: 3072
-SHA256sum: a31296f0f2d69a27be13653c354391206237c776ea8612f9b09aff2b2cf71666
+Size: 3066
+SHA256sum: c6da2700d7312b44c3f76644fa643fd386df15ab8b5799409912a3b8526be05a
 Description:  FULLCONENAT iptables extension
 
 Package: iw
@@ -250,10 +250,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2557961
+Installed-Size: 2557930
 Filename: kcptun-client_20200409-1_mips_24kc.ipk
-Size: 2553971
-SHA256sum: 137c850c6f112ceb2e75ff3b36d7cbabf1a3a006f34dc69d5ef10638e2c0d5d0
+Size: 2554003
+SHA256sum: 0992ba16fee6e47ce88df3b9dbc13349c5842268e2f57dff0bf2140365841e53
 Description:  A Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
  
  This package contains the kcptun client.
@@ -292,8 +292,8 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 40455
 Filename: libipset13_7.1-3_mips_24kc.ipk
-Size: 41150
-SHA256sum: 63b5c156cf76991d7684151d454cd28f3109033d539d85ee622dd3cbbd4d0e5c
+Size: 41153
+SHA256sum: 9d6d72a2f19eebb0a7b18ec6e5bf9b4cc2f19fea41ae091d2da1b9f36d13e855
 Description:  IPset administration utility
 
 Package: libjson-c
@@ -415,10 +415,10 @@ Depends: libc, libopenssl1.1
 License: OpenSSL
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 4782
+Installed-Size: 4780
 Filename: libopenssl-conf_1.1.1f-1_mips_24kc.ipk
-Size: 5747
-SHA256sum: 8cec8eb80d145827a24b32f6996a5c56d9a0574a89cbee0a170c649e3d5a159f
+Size: 5743
+SHA256sum: 45559eab2d34f5725e3e50ae946da5476528b960e55af359bb7ca43c781491c8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -433,8 +433,8 @@ Section: libs
 Architecture: mips_24kc
 Installed-Size: 7758
 Filename: libopenssl-devcrypto_1.1.1f-1_mips_24kc.ipk
-Size: 8717
-SHA256sum: 04eb2da35ad792d476875e1ab596731426f39bf1111b17a2bffcd076610c255a
+Size: 8722
+SHA256sum: 2ce62f4563df68e035ea0d633ae9eaa34f92105e898ba3556a09fa7648d046b0
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  To use it, you need to configure the engine in /etc/ssl/openssl.cnf
@@ -449,10 +449,10 @@ Provides: libopenssl
 License: OpenSSL
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 939576
+Installed-Size: 939578
 Filename: libopenssl1.1_1.1.1f-1_mips_24kc.ipk
-Size: 932980
-SHA256sum: 9c1e2197bee189bb7611827861699dbceb79365b995bb0cf6803357fb8a8560e
+Size: 932933
+SHA256sum: 1ef9421c2b21068cfca661e8e8497fe28ed451e3b9d74b032d4364fe88e94b30
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -625,10 +625,10 @@ Version: 175-5
 Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget, lua, libuci-lua, microsocks, dns2socks, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, shadowsocks-libev-ss-redir, simple-obfs, tcpping, v2ray-plugin, v2ray, kcptun-client
 Section: luci
 Architecture: all
-Installed-Size: 118635
+Installed-Size: 118637
 Filename: luci-app-ssr-plus_175-5_all.ipk
-Size: 118115
-SHA256sum: 0b5ec24aceb3af5cfb43b1950982583fd8fba3397212c88a2a9da0e443951705
+Size: 118081
+SHA256sum: 03d6f49be53c046012b982ab4444178b0e880fd5014357695e52c150bd4b04ed
 Description:  SS/SSR/V2Ray/Trojan LuCI interface
 
 Package: luci-lib-fs
@@ -672,10 +672,10 @@ Depends: libc, libopenssl1.1, libopenssl-conf
 License: OpenSSL
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 242319
+Installed-Size: 242321
 Filename: openssl-util_1.1.1f-1_mips_24kc.ipk
-Size: 240540
-SHA256sum: 15a515bceaadc747568e28a9a3e0d14efccc84e40e464476bef5b695c6b122a1
+Size: 240513
+SHA256sum: 21982a3d19c079b0076465a71a6b55193d18da8966efd727ec2711b7b57dbaa0
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -702,10 +702,10 @@ License: GPL-2.0
 Section: base
 Essential: yes
 Architecture: mips_24kc
-Installed-Size: 58062
+Installed-Size: 58061
 Filename: opkg_2020-01-25-c09fe209-1_mips_24kc.ipk
-Size: 59051
-SHA256sum: 5d7d3741f8a4764bbc3d39812faddfc4019a59ac64f897e1fb0ac01bb97bf7f5
+Size: 59040
+SHA256sum: ba4e8562a253010487c345aaea1b42bec7b8f45419babc87a2e5caba3dc39865
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -739,8 +739,8 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 9566
 Filename: ppp-mod-pppoe_2.4.8-5_mips_24kc.ipk
-Size: 10351
-SHA256sum: 7ae1d4b0f951206fbb849cf92c75c61898aca0ce5c23c35d643e15edbb920f60
+Size: 10353
+SHA256sum: 861824b423a4dc5bd37b1dbae47ec9fc953f9d741f037e90bccb7a90b1ca3d17
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp
@@ -749,10 +749,10 @@ Depends: libc, kmod-ppp, libpthread, shellsync, kmod-mppe
 License: BSD-4-Clause
 Section: net
 Architecture: mips_24kc
-Installed-Size: 99212
+Installed-Size: 99211
 Filename: ppp_2.4.8-5_mips_24kc.ipk
-Size: 99995
-SHA256sum: ffce8d11d63b93f1079f5df81a5a2f6d7aef4dcb914e777b780fe94f332bcaf1
+Size: 100003
+SHA256sum: 32efe791f5f6cc8403c578955ebba4f7ae5196d8bbf21bf4e48c3c3145b65910
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd
@@ -821,10 +821,10 @@ Depends: libc, libpthread, libev
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 27591
+Installed-Size: 27592
 Filename: simple-obfs_0.0.5-5_mips_24kc.ipk
-Size: 28172
-SHA256sum: 2dc3c85189a8313f5a2709812e02dfe43dcd4e332abcd0f819a5df3776a2f662
+Size: 28161
+SHA256sum: a0aa7917a9c00cb9e297b4eb6652c91f8b7f94220ac254bdfc9777189bf1531a
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: swconfig
@@ -1089,10 +1089,10 @@ Provides: hostapd, wpa-supplicant
 License: BSD-3-Clause
 Section: net
 Architecture: mips_24kc
-Installed-Size: 290368
+Installed-Size: 290367
 Filename: wpad-basic_2019-08-08-ca8c2bd2-9_mips_24kc.ipk
-Size: 291179
-SHA256sum: fcfa0ec30d9cec1a0218f5658ac27aff8b703f93fcbdd649f9bf8f0a61f0212f
+Size: 291168
+SHA256sum: 9b951ba7a92e8c0188b5a539ca79c00a02c9ac0aba69c16ff2b658ec64c3d90b
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, 802.11r and 802.11w support.
 
 Package: zlib
